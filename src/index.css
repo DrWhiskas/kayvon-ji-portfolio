@@ -19,3 +19,11 @@ code {
 ul{
   list-style: none;
 }
+
+.title{
+    background: linear-gradient(to right, #2AEEFE, #539FF4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: clamp(3rem,3vw + 1rem,6.2rem);
+}

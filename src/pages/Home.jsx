@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Skills from '../components/Skills';
+import Projects from '../components/Projets';
 import '../styles/home.css';
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
 			<Header />
 			<Hero />
 			<Skills />
+			<Projects />
 		</section>
 	);
 }
