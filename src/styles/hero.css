@@ -2,12 +2,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    margin-top: 10%;
+    height: 100vh;
     width: 100%;
 }
 .hero__container{
     width: 50%;
+    position: relative;
+    top: 20%;
 }
 .hero__container__header__sub{
     font-size: 1.5rem;
@@ -68,6 +69,7 @@
     object-fit: cover;
     position: relative;
     left: -7%;
+    top: 20%;
 }
 
 .icon{

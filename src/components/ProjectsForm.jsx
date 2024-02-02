@@ -18,19 +18,21 @@ export default function ProjectsForm({ emoji, title, description, skills, linkGi
 				<p className="projects-form__description">{description}</p>
 				<div className="projects-form__links">
 					{linkGit && (
-						<button className="projects-form__button">
-							<a href={linkGit}>
-								<FaGithub />
-								GitHub
-							</a>
+						<button
+							className="projects-form__button"
+							onClick={() => window.open(linkGit)}
+						>
+							<FaGithub />
+							GitHub
 						</button>
 					)}
 					{linkPage && (
-						<button className="projects-form__button">
-							<a href={linkPage}>
-								<FaDesktop />
-								Page
-							</a>
+						<button
+							className="projects-form__button"
+							onClick={() => window.open(linkPage)}
+						>
+							<FaDesktop />
+							Page
 						</button>
 					)}
 				</div>

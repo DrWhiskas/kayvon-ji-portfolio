@@ -14,6 +14,13 @@ export default function Projects(){
 						skills={['React', 'Redux']}
 						linkGit="https://github.com/DrWhiskas/Argent-Bank-.git"
 					/>
+					<ProjectsForm
+						emoji="🏃"
+						title="SportSee"
+						description="Create a dashboard with data from an API."
+						skills={['React', 'Redux']}
+						linkGit="https://github.com/DrWhiskas/Sportsee.git"
+					/>
 				</div>
 			</section>
 		);

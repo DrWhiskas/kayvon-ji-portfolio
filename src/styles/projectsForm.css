@@ -5,8 +5,32 @@
     padding: 1%;
     background-color: #111745;
     border: 1px solid rgb(33, 111, 255);
+    margin-top: 3%;
     overflow: hidden;
 }
+.projects-form__emoji{
+    font-size: 20px;
+}
 .projects-form__title{
-    
+    color: white;
+}
+.projects-form__skills{
+    list-style: none;
+    display: flex;
+    gap: 5%;
+}
+.projects-form__skills__item{
+    color: white;
+    min-width: 20px;
+    background-color: #2655B6;
+    border: none;
+    border-radius: 5%;
+    padding: 2%;
+    text-decoration: none;
+}
+.projects-form__description{
+    color:aliceblue;
+}
+.projects-form__button{
+
 }
