@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectsForm from "./ProjectsForm";
-import ArgentBank from '../assets/ArgentBank.JPG';
 import '../styles/projects.css'
 export default function Projects(){
     return (
@@ -20,6 +19,13 @@ export default function Projects(){
 						description="Create a dashboard with data from an API."
 						skills={['React', 'Redux']}
 						linkGit="https://github.com/DrWhiskas/Sportsee.git"
+					/>
+					<ProjectsForm
+						emoji="🎫"
+						title="Billed"
+						description="Debug and unit tests of a ticket management application"
+						skills={['JavaScript', 'Unit Testing']}
+						linkGit="https://github.com/DrWhiskas/Billed-app-FR-Front.git"
 					/>
 				</div>
 			</section>

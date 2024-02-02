@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../assets/pp.png';
 import '../styles/hero.css';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import ModalForm from './modalForm';
 
 export default function Hero() {
 	return (
@@ -37,7 +38,10 @@ export default function Hero() {
 						<FaLinkedin className="icon" />
 						Linkedin
 					</button>
-					<button className="hero__links__link">
+					<button
+						className="hero__links__link"
+						onClick={() => window.open('mailto:jikayvon@gmail.com')}
+					>
 						<FaEnvelope className="icon" />
 						Email
 					</button>

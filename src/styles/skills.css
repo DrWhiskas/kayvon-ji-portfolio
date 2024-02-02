@@ -12,6 +12,7 @@
     -webkit-text-fill-color: transparent;
     font-weight: bold;
     font-size: clamp(3rem,3vw + 1rem,6.2rem);
+    margin-bottom: 2%;
 }
 .skills__list{
     color: #D4E8F7;
