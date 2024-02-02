@@ -1,0 +1,12 @@
+.projects-form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 1%;
+    background-color: #111745;
+    border: 1px solid rgb(33, 111, 255);
+    overflow: hidden;
+}
+.projects-form__title{
+    
+}
