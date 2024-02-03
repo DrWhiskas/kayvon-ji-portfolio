@@ -8,13 +8,13 @@ export default function ProjectsForm({ emoji, title, description, skills, linkGi
 			<article className="projects-form">
 				<div className="projects-form__emoji">{emoji}</div>
 				<h2 className="projects-form__title">{title}</h2>
-				<u className="projects-form__skills">
+				<div className="projects-form__skills">
 					{skills.map((skill, index) => (
-						<li key={index} className="projects-form__skills__item">
+						<span key={index} className="projects-form__skills__item">
 							{skill}
-						</li>
+						</span>
 					))}
-				</u>
+				</div>
 				<p className="projects-form__description">{description}</p>
 				<div className="projects-form__links">
 					{linkGit && (

@@ -1,0 +1,23 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+    margin-top: 5%;
+}
+.contact__title,
+.contact__text{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.contact__text{
+    color: white;
+}
+.contact__links{
+    place-content: center;
+    margin-top: 1%;
+}
+.contact__link{
+    padding: 1%;
+}

@@ -2,13 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 100vh;
+    height: 92.5vh;
     width: 100%;
 }
 .hero__container{
     width: 50%;
     position: relative;
     top: 20%;
+    height: 60%;
 }
 .hero__container__header__sub{
     font-size: 1.5rem;
@@ -45,6 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2%;
     gap: 6%;
     min-width: 6%;
     width: auto;
