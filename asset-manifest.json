@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kayvon-ji-portfolio/static/css/main.2a7e4890.css",
+    "main.js": "/kayvon-ji-portfolio/static/js/main.73d30a9b.js",
+    "static/js/787.1a5f8700.chunk.js": "/kayvon-ji-portfolio/static/js/787.1a5f8700.chunk.js",
+    "static/media/pp.png": "/kayvon-ji-portfolio/static/media/pp.879aa4dd16898793ee33.png",
+    "index.html": "/kayvon-ji-portfolio/index.html",
+    "main.2a7e4890.css.map": "/kayvon-ji-portfolio/static/css/main.2a7e4890.css.map",
+    "main.73d30a9b.js.map": "/kayvon-ji-portfolio/static/js/main.73d30a9b.js.map",
+    "787.1a5f8700.chunk.js.map": "/kayvon-ji-portfolio/static/js/787.1a5f8700.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a7e4890.css",
+    "static/js/main.73d30a9b.js"
+  ]
+}
