@@ -92,7 +92,7 @@
     .burger-bar::before,
     .burger-bar::after {
         display: block;
-        width: 40px;
+        width: 27px;
         height: 3px;
         position: relative;
         border-radius: 3px;
