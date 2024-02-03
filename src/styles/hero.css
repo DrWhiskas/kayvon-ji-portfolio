@@ -49,7 +49,6 @@
     padding: 2%;
     gap: 6%;
     min-width: 6%;
-    width: auto;
     height: 40px;
     border: none;
     border-radius: 20px;
@@ -94,6 +93,7 @@
         position: relative;
         top: -11%;
         text-align: -webkit-center;
+        margin-bottom: 5%;
     }
     .hero__logo{
         height: 250px;
@@ -102,5 +102,13 @@
     .hero__container__main{
         font-size: 4vw;
     }
+    .hero__links{
+        flex-wrap: initial;
+        flex-direction: column;
+        place-items: center;
 
+    }
+    .hero__links__link{
+        width: 175px;
+    }
 }
