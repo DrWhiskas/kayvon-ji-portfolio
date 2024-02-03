@@ -39,7 +39,7 @@
 .hero__links{
     display: flex;
     flex-wrap: wrap;
-    gap: 2%;
+    gap: 1rem;
     margin-top: 3%;
 }
 .hero__links__link{
@@ -72,8 +72,35 @@
     position: relative;
     left: -7%;
     top: 20%;
+    margin-left: 4%;
 }
 
 .icon{
     font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .hero__logo{
+        margin-left: 0;
+        left: 0;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .hero{
+        flex-direction: column-reverse;
+        flex-wrap: initial;
+        align-items: center;
+        position: relative;
+        top: -11%;
+        text-align: -webkit-center;
+    }
+    .hero__logo{
+        height: 250px;
+        width: 250px;
+    }
+    .hero__container__main{
+        font-size: 4vw;
+    }
+
 }

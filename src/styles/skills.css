@@ -6,11 +6,7 @@
     width: 100%;
 }
 .skills__title{
-    background: linear-gradient(to right, #2AEEFE, #539FF4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-    font-size: clamp(3rem,3vw + 1rem,6.2rem);
+    
     margin-bottom: 2%;
 }
 .skills__list{
@@ -35,4 +31,18 @@
 .skills__list-container__list__item{
     color: #D4E8F7;
     font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    .skills{
+        margin-top: 4%;
+    }
+    .skills__list-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .skills__list-container__list{
+        padding: 0;
+    }
 }

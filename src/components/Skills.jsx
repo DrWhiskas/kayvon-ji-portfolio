@@ -21,7 +21,7 @@ const Skills = forwardRef((props, ref) => {
 			className="skills"
 		>
 			<section className="skills" ref={ref}>
-				<h1 className="skills__title">Skills</h1>
+				<h1 className="skills__title title">Skills</h1>
 				<div className="skills__list-container">
 					<ul className="skills__list-container__list">
 						<h2 className="skills__list-container__list__title">Design</h2>

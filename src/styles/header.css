@@ -49,6 +49,11 @@
 }
 
 @media screen and (max-width: 767px) {
+    .header{
+        position: fixed;
+        z-index: 1;
+        background-color: #04082F
+    }
     .header__links{
         flex-direction: column;
         justify-content: center;
