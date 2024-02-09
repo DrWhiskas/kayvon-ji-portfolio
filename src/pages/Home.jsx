@@ -19,12 +19,10 @@ export default function Home() {
 				contactRef={contactRef}
 			/>
 			<Hero />
-			<div className="test">
-				<Skills ref={skillsRef} />
-				<Projects ref={projectsRef} />
-				<Contact ref={contactRef} />
-				<Footer />
-			</div>
+			<Skills ref={skillsRef} />
+			<Projects ref={projectsRef} />
+			<Contact ref={contactRef} />
+			<Footer />
 		</section>
 	);
 }
