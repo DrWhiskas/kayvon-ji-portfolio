@@ -91,6 +91,7 @@
         top: -11%;
         text-align: -webkit-center;
         margin-bottom: 5%;
+        height: auto;
     }
     .hero__logo{
         height: 250px;
