@@ -14,21 +14,16 @@
 .hero__container__header__sub{
     font-size: 1.5rem;
     line-height: 2rem;
-    background: linear-gradient(to right, #2AEEFE, #539FF4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
+    color: black;
 }
 .hero__container__header__name{
     font-size: clamp(3rem,5vw + 1rem,6.2rem);
     line-height: 1.1;
     font-weight: bolder;
-    background: linear-gradient(to right, #2AEEFE, #539FF4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: black;
 }
 .hero__container__main{
-    color: #D4E8F7;
+    color: black;
     font-size: 2vw;
     width: 87%;
     margin-top: 2%;
@@ -51,16 +46,18 @@
     min-width: 6%;
     height: 40px;
     border: none;
-    border-radius: 20px;
     font-weight: bold;
-    background-color: #2655B6;   
-    color: white;
-    transition: all ease-in-out .2s; 
+    border: 2px solid black;
+    background: transparent;   
+    color: black;
+    transition: all ease-in-out .1s; 
 }
 .hero__links__link:hover{
     transform: scale(1.05);
     cursor: pointer;
     font-weight: bold;
+    background-color: black;
+    color: white;
 }
 
 .hero__logo{

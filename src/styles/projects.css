@@ -14,11 +14,47 @@
 }
 .projects__title{
     margin-bottom: 2%;
+    color: black;
 }
-
+.projects__more{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 3%;
+}
+.projects__more > article {
+  opacity:  0;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-duration:  0.5s;
+  animation-delay: var(--delay);
+}
+.hidden-project{
+    display: none;
+}
+.show-project{
+    display: block;
+}
+.btn-project{
+    margin-top: 3%;
+}
 @media screen and (max-width: 767px) {
     .projects__container{
         flex-direction: column;
         align-items: center;
     }
+    .projects__more{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@keyframes fadeIn {
+   0% {
+    opacity:  0;
+  }
+   100% {
+    opacity:  1;
+  }
 }

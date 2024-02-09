@@ -6,7 +6,7 @@
     width: 100%;
 }
 .skills__title{
-    
+    color: black;
     margin-bottom: 2%;
 }
 .skills__list{
@@ -22,14 +22,12 @@
     gap: 10%;
 }
 .skills__list-container__list__title{
-    background: linear-gradient(to right, #2AEEFE, #539FF4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: black;
     font-weight: bold;
     font-size: clamp(2rem,1vw + 1rem,6.2rem);
 }
 .skills__list-container__list__item{
-    color: #D4E8F7;
+    color: rgba(0, 0, 0, 0.534);
     font-weight: bold;
 }
 

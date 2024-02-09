@@ -1,78 +1,71 @@
 .projects-form{
     display: flex;
     flex-direction: column;
+    position: relative;
     justify-content: space-between;
-    min-width: 15%;
-    max-width: 25%;
-    padding: 1%;
-    height: 200px;
+    min-width: 25vw;
+    max-width: 23vw;
+    height: 33vh;
     background-color: #111745;
-    border: 1px solid rgb(33, 111, 255);
     margin-top: 3%;
     overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.555) 0px 5px 15px;
     transition: all ease-in-out .2s;
 }
-.projects-form__emoji{
-    font-size: 20px;
+.projects-form:hover{
+    transform: scale(1.05);
 }
-.projects-form__title{
+.projects-form__image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.projects-form__container{
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease-in-out .2s
+}
+.projects-form:hover .projects-form__container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
     color: white;
-}
-.projects-form__skills{
-    list-style: none;
+    background-color: rgba(0, 0, 0, 0.747);
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    place-items: center;
+    visibility: visible;
+    opacity: 1;
+}
+.projects-form__container__title{
+    text-align: center;
+    font-size: 25px;
+}
+.projects-form__container__description{
+    text-align: center;
+}
+.projects-form__links{
+    display: flex;
+    gap: 10%;
+}
+.projects-form__button{
+    width: 6.5vw;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    padding: 2%;
+    display: flex;
+    place-content: center;
     gap: 5%;
 }
-.projects-form__skills__item{
-    color: black;
-    min-width: 20px;
-    background-color: #24C5D9;
-    font-weight: bold;
-    border: none;
-    border-radius: 5%;
-    padding: 2%;
-    position: relative;
-    text-decoration: none;
-    transition: all ease-in-out .1s;
-}
-.projects-form__skills__item:hover{
-    background-color:#00e1ff;
-    cursor: pointer;
-}
-.projects-form__description{
-    color:aliceblue;
-}
-
-
-.projects-form__button {
-    align-items: center;
-    background-color: #2655B6;
-    border: 0;
-    border-radius: 8px;
-    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    display: flex;
-    font-size: 15px;
-    justify-content: center;
-    line-height: 1em;
-    max-width: 100%;
-    min-width: 89px;
-    padding: 2%;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-    cursor: pointer;
-    gap: 4%;
-    transition: all ease-in-out .2s;
-}
 .projects-form__button:hover{
-    transform: scale(1.05);
-    background-color: #3a63b4;
+    cursor: pointer;
+    background-color: white;
+    color: black;
 }
+
 @media screen and (max-width: 767px) {
 
     .projects-form{

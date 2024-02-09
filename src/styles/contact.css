@@ -11,10 +11,9 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    color: black;
 }
-.contact__text{
-    color: white;
-}
+
 .contact__links{
     place-content: center;
     margin-top: 1%;

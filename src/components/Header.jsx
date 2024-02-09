@@ -20,6 +20,7 @@ export default function Header({ skillsRef, projectsRef, contactRef }) {
 		contactRef.current?.scrollIntoView({ behavior: 'smooth' });
 	}
 
+
 	return (
 		<header className={showLinks ? 'header show-header' : 'header'}>
 			<h1 className="header__logo">KJI </h1>
