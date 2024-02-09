@@ -59,6 +59,7 @@
     display: flex;
     place-content: center;
     gap: 5%;
+    align-items: center;
 }
 .projects-form__button:hover{
     cursor: pointer;
@@ -71,6 +72,10 @@
     .projects-form{
         min-width: initial;
         max-width: initial;
-        width: 42%;
+        width: 80%;
+    }
+    .projects-form__button{
+        width: 100px;
+        height: 3vh;
     }
 }
