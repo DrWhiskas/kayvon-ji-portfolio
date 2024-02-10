@@ -67,7 +67,7 @@ const Projects = forwardRef((props, ref) => {
 						/>
 						<ProjectsForm
 							image={Lol}
-							title="Billed"
+							title="Login Page"
 							description="Freelance - League of legends Login page"
 							linkGit="https://github.com/DrWhiskas/leagueoflegends.git"
 							linkPage="https://drwhiskas.github.io/leagueoflegends/"
