@@ -28,7 +28,7 @@ export default function Hero() {
 					</div>
 					<div className="hero__container__main">
 						<span className="hero__container__main__work">
-							Junior Front-End Developer.
+							Front-End Developer.
 						</span>
 						I am passionate about creating frontend products that are both
 						user-friendly and scalable.
