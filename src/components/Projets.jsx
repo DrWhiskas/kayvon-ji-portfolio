@@ -8,6 +8,8 @@ import Kasa from '../assets/project__kasa.png';
 import ArgentBank from '../assets/project__argent-bank.png';
 import Cristaline from '../assets/project__cristaline.png';
 import Lol from '../assets/project__lol.png';
+import VB from '../assets/projet__viralBurger.png'
+import LateMeteo from '../assets/late_meteo.png';
 import '../styles/projects.css';
 
 const Projects = forwardRef((props, ref) => {
@@ -32,6 +34,11 @@ const Projects = forwardRef((props, ref) => {
 				<h1 className="projects__title title">Projects</h1>
 				<div className="projects__container">
 					<ProjectsForm
+						image={LateMeteo}
+						description="Weather application"
+						linkPage="https://drwhiskas.github.io/late-meteo/"
+					/>
+					<ProjectsForm
 						image={Mashinneun}
 						title="Mashinneun"
 						description="Freelance - Website for a restaurant with a shop"
@@ -44,15 +51,15 @@ const Projects = forwardRef((props, ref) => {
 						description="Dashboard with data from an API."
 						linkGit="https://github.com/DrWhiskas/Sportsee.git"
 					/>
-					<ProjectsForm
-						image={Kasa}
-						title="Kasa"
-						description="Private apartment rental"
-						linkGit="https://github.com/DrWhiskas/P11-Developpez-une-application-Web-avec-React-et-React-Router.git"
-					/>
 					<div
 						className={showMoreProject ? 'projects__more' : 'hidden-project'}
 					>
+						<ProjectsForm
+							image={Kasa}
+							title="Kasa"
+							description="Private apartment rental"
+							linkGit="https://github.com/DrWhiskas/P11-Developpez-une-application-Web-avec-React-et-React-Router.git"
+						/>
 						<ProjectsForm
 							image={Cristaline}
 							title="Cristaline"
@@ -71,6 +78,12 @@ const Projects = forwardRef((props, ref) => {
 							description="Freelance - League of legends Login page"
 							linkGit="https://github.com/DrWhiskas/leagueoflegends.git"
 							linkPage="https://drwhiskas.github.io/leagueoflegends/"
+						/>
+						<ProjectsForm
+							image={VB}
+							description="Freelance : En cours..."
+							linkGit="https://github.com/DrWhiskas/viral-burger"
+							linkPage="https://drwhiskas.github.io/viral-burger/"
 						/>
 					</div>
 				</div>
