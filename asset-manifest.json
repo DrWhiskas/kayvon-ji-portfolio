@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kayvon-ji-portfolio/static/css/main.b6f098e7.css",
-    "main.js": "/kayvon-ji-portfolio/static/js/main.aa1ac2bd.js",
+    "main.js": "/kayvon-ji-portfolio/static/js/main.4a7804a2.js",
     "static/js/787.1a5f8700.chunk.js": "/kayvon-ji-portfolio/static/js/787.1a5f8700.chunk.js",
     "static/media/project__cristaline.png": "/kayvon-ji-portfolio/static/media/project__cristaline.93c1623bd5ddfe848401.png",
     "static/media/projet__mashinneun.png": "/kayvon-ji-portfolio/static/media/projet__mashinneun.aa52edc30052bb8b10e7.png",
@@ -12,13 +12,14 @@
     "static/media/late_meteo.png": "/kayvon-ji-portfolio/static/media/late_meteo.20107b5a64c566c0fa37.png",
     "static/media/project__sportsee.png": "/kayvon-ji-portfolio/static/media/project__sportsee.cc7d271f1fea8e927704.png",
     "static/media/project__argent-bank.png": "/kayvon-ji-portfolio/static/media/project__argent-bank.0578d615666f008ba1b6.png",
+    "static/media/kji.JPG": "/kayvon-ji-portfolio/static/media/kji.df5177afcd8411cbf36f.JPG",
     "index.html": "/kayvon-ji-portfolio/index.html",
     "main.b6f098e7.css.map": "/kayvon-ji-portfolio/static/css/main.b6f098e7.css.map",
-    "main.aa1ac2bd.js.map": "/kayvon-ji-portfolio/static/js/main.aa1ac2bd.js.map",
+    "main.4a7804a2.js.map": "/kayvon-ji-portfolio/static/js/main.4a7804a2.js.map",
     "787.1a5f8700.chunk.js.map": "/kayvon-ji-portfolio/static/js/787.1a5f8700.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6f098e7.css",
-    "static/js/main.aa1ac2bd.js"
+    "static/js/main.4a7804a2.js"
   ]
 }
