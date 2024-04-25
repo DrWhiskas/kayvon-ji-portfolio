@@ -10,6 +10,7 @@ import Cristaline from '../assets/project__cristaline.png';
 import Lol from '../assets/project__lol.png';
 import VB from '../assets/projet__viralBurger.png'
 import LateMeteo from '../assets/late_meteo.png';
+import Kji from '../assets/kji.JPG'
 import '../styles/projects.css';
 
 const Projects = forwardRef((props, ref) => {
@@ -33,6 +34,7 @@ const Projects = forwardRef((props, ref) => {
 			<section className="projets" ref={ref}>
 				<h1 className="projects__title title">Projects</h1>
 				<div className="projects__container">
+					<ProjectsForm image={Kji} description="under construction" linkPag='https://drwhiskas.github.io/kji-components/' />
 					<ProjectsForm
 						image={LateMeteo}
 						description="Weather application"
