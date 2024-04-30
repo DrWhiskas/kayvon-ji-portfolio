@@ -30,7 +30,8 @@ const Skills = forwardRef((props, ref) => {
 					</ul>
 					<ul className="skills__list-container__list">
 						<h2 className="skills__list-container__list__title">Frontend</h2>
-						<SkillsItem text="React" />
+						<SkillsItem text="ReactJs" />
+						<SkillsItem text="TypeScript" />
 						<SkillsItem text="Redux" />
 						<SkillsItem text="Javascript" />
 						<SkillsItem text="CSS3" />
