@@ -34,18 +34,15 @@ const Projects = forwardRef((props, ref) => {
 			<section className="projets" ref={ref}>
 				<h1 className="projects__title title">Projects</h1>
 				<div className="projects__container">
-					<ProjectsForm image={Kji} description="under construction" linkPag='https://drwhiskas.github.io/kji-components/' />
+					<ProjectsForm
+						image={Kji}
+						description="under construction"
+						linkPag="https://drwhiskas.github.io/kji-components/"
+					/>
 					<ProjectsForm
 						image={LateMeteo}
 						description="Weather application"
 						linkPage="https://drwhiskas.github.io/late-meteo/"
-					/>
-					<ProjectsForm
-						image={Mashinneun}
-						title="Mashinneun"
-						description="Freelance - Website for a restaurant with a shop"
-						linkGit="https://github.com/DrWhiskas/mashinneun"
-						linkPage="https://drwhiskas.github.io/mashinneun/"
 					/>
 					<ProjectsForm
 						image={Sportsee}
@@ -56,6 +53,13 @@ const Projects = forwardRef((props, ref) => {
 					<div
 						className={showMoreProject ? 'projects__more' : 'hidden-project'}
 					>
+						<ProjectsForm
+							image={Mashinneun}
+							title="Mashinneun"
+							description="Freelance - Website for a restaurant with a shop"
+							linkGit="https://github.com/DrWhiskas/mashinneun"
+							linkPage="https://drwhiskas.github.io/mashinneun/"
+						/>
 						<ProjectsForm
 							image={Kasa}
 							title="Kasa"
