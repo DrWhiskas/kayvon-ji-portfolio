@@ -37,7 +37,7 @@ const Projects = forwardRef((props, ref) => {
 					<ProjectsForm
 						image={Kji}
 						description="under construction"
-						linkPag="https://drwhiskas.github.io/kji-components/"
+						linkPage="https://drwhiskas.github.io/kji-components/"
 					/>
 					<ProjectsForm
 						image={LateMeteo}
