@@ -58,12 +58,7 @@ const Projects = forwardRef((props, ref) => {
 					<div
 						className={showMoreProject ? 'projects__more' : 'hidden-project'}
 					>
-						<ProjectsForm
-							image={LateConverter}
-							title="Late Converter"
-							description="Convert mp4 to mp3"
-							linkGit="https://drwhiskas.github.io/late-mp3-converter/"
-						/>
+						
 						<ProjectsForm
 							image={Sportsee}
 							title="SportSee"
