@@ -37,7 +37,7 @@
     display: block;
 }
 .btn-project{
-    margin-top: 3%;
+    margin-top: 8%;
 }
 @media screen and (max-width: 767px) {
     .projects__container{

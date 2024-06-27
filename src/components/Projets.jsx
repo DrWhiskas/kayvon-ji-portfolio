@@ -11,6 +11,8 @@ import Lol from '../assets/project__lol.png';
 import VB from '../assets/projet__viralBurger.png'
 import LateMeteo from '../assets/late_meteo.png';
 import Kji from '../assets/kji.JPG'
+import LateConverter from '../assets/lateConverter.png'
+import djkotic from '../assets/djkotic.png'
 import '../styles/projects.css';
 
 const Projects = forwardRef((props, ref) => {
@@ -35,24 +37,39 @@ const Projects = forwardRef((props, ref) => {
 				<h1 className="projects__title title">Projects</h1>
 				<div className="projects__container">
 					<ProjectsForm
+						image={djkotic}
+						title='DJKOTIC'
+						description="Website that brings together a variety of music genres and artists. under construction"
+						linkPage="https://drwhiskas.github.io/djkotic/"
+					/>
+					<ProjectsForm
 						image={Kji}
-						description="under construction"
+						title='Kji-components'
+						description="Testing reusable components"
 						linkPage="https://drwhiskas.github.io/kji-components/"
 					/>
 					<ProjectsForm
 						image={LateMeteo}
+						title='Late Meteo'
 						description="Weather application"
 						linkPage="https://drwhiskas.github.io/late-meteo/"
 					/>
-					<ProjectsForm
-						image={Sportsee}
-						title="SportSee"
-						description="Dashboard with data from an API."
-						linkGit="https://github.com/DrWhiskas/Sportsee.git"
-					/>
+
 					<div
 						className={showMoreProject ? 'projects__more' : 'hidden-project'}
 					>
+						<ProjectsForm
+							image={LateConverter}
+							title="Late Converter"
+							description="Convert mp4 to mp3"
+							linkGit="https://drwhiskas.github.io/late-mp3-converter/"
+						/>
+						<ProjectsForm
+							image={Sportsee}
+							title="SportSee"
+							description="Dashboard with data from an API."
+							linkGit="https://github.com/DrWhiskas/Sportsee.git"
+						/>
 						<ProjectsForm
 							image={Mashinneun}
 							title="Mashinneun"
