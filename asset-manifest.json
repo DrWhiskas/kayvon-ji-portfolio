@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kayvon-ji-portfolio/static/css/main.b6f098e7.css",
-    "main.js": "/kayvon-ji-portfolio/static/js/main.b8dca32a.js",
+    "main.css": "/kayvon-ji-portfolio/static/css/main.4953a9a4.css",
+    "main.js": "/kayvon-ji-portfolio/static/js/main.f2f2e2cc.js",
     "static/js/787.1a5f8700.chunk.js": "/kayvon-ji-portfolio/static/js/787.1a5f8700.chunk.js",
     "static/media/project__cristaline.png": "/kayvon-ji-portfolio/static/media/project__cristaline.93c1623bd5ddfe848401.png",
     "static/media/projet__mashinneun.png": "/kayvon-ji-portfolio/static/media/projet__mashinneun.aa52edc30052bb8b10e7.png",
@@ -9,17 +9,19 @@
     "static/media/projet__viralBurger.png": "/kayvon-ji-portfolio/static/media/projet__viralBurger.7e2657a0341e28331ca5.png",
     "static/media/project__kasa.png": "/kayvon-ji-portfolio/static/media/project__kasa.e57b12924e4a58a07e6f.png",
     "static/media/pp.png": "/kayvon-ji-portfolio/static/media/pp.cc4229539604c3e8bcbe.png",
+    "static/media/djkotic.png": "/kayvon-ji-portfolio/static/media/djkotic.60821a0adeafa30844ad.png",
     "static/media/late_meteo.png": "/kayvon-ji-portfolio/static/media/late_meteo.20107b5a64c566c0fa37.png",
     "static/media/project__sportsee.png": "/kayvon-ji-portfolio/static/media/project__sportsee.cc7d271f1fea8e927704.png",
+    "static/media/lateConverter.png": "/kayvon-ji-portfolio/static/media/lateConverter.fb7406e443c3d76776ea.png",
     "static/media/project__argent-bank.png": "/kayvon-ji-portfolio/static/media/project__argent-bank.0578d615666f008ba1b6.png",
     "static/media/kji.JPG": "/kayvon-ji-portfolio/static/media/kji.df5177afcd8411cbf36f.JPG",
     "index.html": "/kayvon-ji-portfolio/index.html",
-    "main.b6f098e7.css.map": "/kayvon-ji-portfolio/static/css/main.b6f098e7.css.map",
-    "main.b8dca32a.js.map": "/kayvon-ji-portfolio/static/js/main.b8dca32a.js.map",
+    "main.4953a9a4.css.map": "/kayvon-ji-portfolio/static/css/main.4953a9a4.css.map",
+    "main.f2f2e2cc.js.map": "/kayvon-ji-portfolio/static/js/main.f2f2e2cc.js.map",
     "787.1a5f8700.chunk.js.map": "/kayvon-ji-portfolio/static/js/787.1a5f8700.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6f098e7.css",
-    "static/js/main.b8dca32a.js"
+    "static/css/main.4953a9a4.css",
+    "static/js/main.f2f2e2cc.js"
   ]
 }
