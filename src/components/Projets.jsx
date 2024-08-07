@@ -38,19 +38,19 @@ const Projects = forwardRef((props, ref) => {
 				<div className="projects__container">
 					<ProjectsForm
 						image={djkotic}
-						title='DJKOTIC'
+						title="BeatBrowser"
 						description="Website that brings together a variety of music genres and artists. under construction"
-						linkPage="https://drwhiskas.github.io/djkotic/"
+						linkPage="https://drwhiskas.github.io/beatbrowser/"
 					/>
 					<ProjectsForm
 						image={Kji}
-						title='Kji-components'
+						title="Kji-components"
 						description="Testing reusable components"
 						linkPage="https://drwhiskas.github.io/kji-components/"
 					/>
 					<ProjectsForm
 						image={LateMeteo}
-						title='Late Meteo'
+						title="Late Meteo"
 						description="Weather application"
 						linkPage="https://drwhiskas.github.io/late-meteo/"
 					/>
@@ -58,7 +58,6 @@ const Projects = forwardRef((props, ref) => {
 					<div
 						className={showMoreProject ? 'projects__more' : 'hidden-project'}
 					>
-						
 						<ProjectsForm
 							image={Sportsee}
 							title="SportSee"
