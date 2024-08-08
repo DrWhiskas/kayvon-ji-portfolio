@@ -20,6 +20,7 @@
     justify-content: center;
     width: 100%;
     gap: 10%;
+    text-align: center;
 }
 .skills__list-container__list__title{
     color: black;

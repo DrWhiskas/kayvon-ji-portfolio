@@ -42,8 +42,8 @@ const Skills = forwardRef((props, ref) => {
 					<ul className="skills__list-container__list">
 						<h2 className="skills__list-container__list__title">Backend</h2>
 						<SkillsItem icon="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" />
-						<SkillsItem icon="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" />
 						<SkillsItem icon="https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000" />
+						<SkillsItem icon="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" />
 					</ul>
 					<ul className="skills__list-container__list">
 						<h2 className="skills__list-container__list__title">Other</h2>
