@@ -17,7 +17,7 @@ export default function Hero() {
 			ref={ref}
 			initial={{ opacity: 0 }}
 			animate={{ opacity: inView ? 1 : 0 }}
-			transition={{ duration: .6 }}
+			transition={{ duration: 0.6 }}
 			className="hero"
 		>
 			<section className="hero">
@@ -28,10 +28,11 @@ export default function Hero() {
 					</div>
 					<div className="hero__container__main">
 						<span className="hero__container__main__work">
-							Front-End Developer.
+							Full-Stack Developer.
 						</span>
-						I am passionate about creating frontend products that are both
-						user-friendly and scalable.
+						I am passionate about creating full stack solutions that are both
+						user-friendly on the front end and robust and scalable on the back
+						end.
 					</div>
 					<div className="hero__links">
 						<button
