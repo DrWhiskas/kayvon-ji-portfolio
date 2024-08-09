@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kayvon-ji-portfolio/static/css/main.cd860d0e.css",
-    "main.js": "/kayvon-ji-portfolio/static/js/main.865917f6.js",
+    "main.js": "/kayvon-ji-portfolio/static/js/main.4fa6319a.js",
     "static/js/787.1a5f8700.chunk.js": "/kayvon-ji-portfolio/static/js/787.1a5f8700.chunk.js",
     "static/media/project__cristaline.png": "/kayvon-ji-portfolio/static/media/project__cristaline.93c1623bd5ddfe848401.png",
     "static/media/projet__mashinneun.png": "/kayvon-ji-portfolio/static/media/projet__mashinneun.aa52edc30052bb8b10e7.png",
@@ -17,11 +17,11 @@
     "static/media/kji.JPG": "/kayvon-ji-portfolio/static/media/kji.df5177afcd8411cbf36f.JPG",
     "index.html": "/kayvon-ji-portfolio/index.html",
     "main.cd860d0e.css.map": "/kayvon-ji-portfolio/static/css/main.cd860d0e.css.map",
-    "main.865917f6.js.map": "/kayvon-ji-portfolio/static/js/main.865917f6.js.map",
+    "main.4fa6319a.js.map": "/kayvon-ji-portfolio/static/js/main.4fa6319a.js.map",
     "787.1a5f8700.chunk.js.map": "/kayvon-ji-portfolio/static/js/787.1a5f8700.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd860d0e.css",
-    "static/js/main.865917f6.js"
+    "static/js/main.4fa6319a.js"
   ]
 }
