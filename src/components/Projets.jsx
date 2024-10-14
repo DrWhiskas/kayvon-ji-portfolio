@@ -13,6 +13,7 @@ import LateMeteo from '../assets/late_meteo.png';
 import Kji from '../assets/kji.JPG'
 import LateConverter from '../assets/lateConverter.png'
 import djkotic from '../assets/djkotic.png'
+import manage from '../assets/manage-landing-page.png'
 import '../styles/projects.css';
 
 const Projects = forwardRef((props, ref) => {
@@ -37,17 +38,20 @@ const Projects = forwardRef((props, ref) => {
 				<h1 className="projects__title title">Projects</h1>
 				<div className="projects__container">
 					<ProjectsForm
+						image={manage}
+						title="Manage"
+						description="Website that brings together a variety of music genres and artists. under construction"
+						linkPage="https://drwhiskas.github.io/manage-landing-page/"
+						linkGit="https://github.com/DrWhiskas/manage-landing-page/tree/main"
+					/>
+
+					<ProjectsForm
 						image={djkotic}
 						title="BeatBrowser"
 						description="Website that brings together a variety of music genres and artists. under construction"
 						linkPage="https://drwhiskas.github.io/beatbrowser/"
 					/>
-					<ProjectsForm
-						image={Kji}
-						title="Kji-components"
-						description="Testing reusable components"
-						linkPage="https://drwhiskas.github.io/kji-components/"
-					/>
+
 					<ProjectsForm
 						image={LateMeteo}
 						title="Late Meteo"
@@ -58,6 +62,12 @@ const Projects = forwardRef((props, ref) => {
 					<div
 						className={showMoreProject ? 'projects__more' : 'hidden-project'}
 					>
+						<ProjectsForm
+							image={Kji}
+							title="Kji-components"
+							description="Testing reusable components"
+							linkPage="https://drwhiskas.github.io/kji-components/"
+						/>
 						<ProjectsForm
 							image={Sportsee}
 							title="SportSee"
