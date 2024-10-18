@@ -14,6 +14,7 @@ import Kji from '../assets/kji.JPG'
 import LateConverter from '../assets/lateConverter.png'
 import djkotic from '../assets/djkotic.png'
 import manage from '../assets/manage-landing-page.png'
+import ratingModal from '../assets/RatingModal.png'
 import '../styles/projects.css';
 
 const Projects = forwardRef((props, ref) => {
@@ -38,18 +39,19 @@ const Projects = forwardRef((props, ref) => {
 				<h1 className="projects__title title">Projects</h1>
 				<div className="projects__container">
 					<ProjectsForm
+						image={ratingModal}
+						title="Rating Modal"
+						description=" interactive rating modal developed using React.js and TypeScript"
+						linkPage="https://drwhiskas.github.io/rating-modal/"
+						linkGit="https://github.com/DrWhiskas/rating-modal/tree/main"
+					/>
+
+					<ProjectsForm
 						image={manage}
 						title="Manage"
 						description="Website that brings together a variety of music genres and artists. under construction"
 						linkPage="https://drwhiskas.github.io/manage-landing-page/"
 						linkGit="https://github.com/DrWhiskas/manage-landing-page/tree/main"
-					/>
-
-					<ProjectsForm
-						image={djkotic}
-						title="BeatBrowser"
-						description="Website that brings together a variety of music genres and artists. under construction"
-						linkPage="https://drwhiskas.github.io/beatbrowser/"
 					/>
 
 					<ProjectsForm
@@ -63,6 +65,13 @@ const Projects = forwardRef((props, ref) => {
 						className={showMoreProject ? 'projects__more' : 'hidden-project'}
 					>
 						<ProjectsForm
+							image={djkotic}
+							title="BeatBrowser"
+							description="Website that brings together a variety of music genres and artists. under construction"
+							linkPage="https://drwhiskas.github.io/beatbrowser/"
+						/>
+
+						<ProjectsForm
 							image={Kji}
 							title="Kji-components"
 							description="Testing reusable components"
@@ -72,6 +81,7 @@ const Projects = forwardRef((props, ref) => {
 							image={Sportsee}
 							title="SportSee"
 							description="Dashboard with data from an API."
+							linkPage="https://drwhiskas.github.io/Sportsee/"
 							linkGit="https://github.com/DrWhiskas/Sportsee.git"
 						/>
 						<ProjectsForm
@@ -105,12 +115,6 @@ const Projects = forwardRef((props, ref) => {
 							description="Freelance - League of legends Login page"
 							linkGit="https://github.com/DrWhiskas/leagueoflegends.git"
 							linkPage="https://drwhiskas.github.io/leagueoflegends/"
-						/>
-						<ProjectsForm
-							image={VB}
-							description="Freelance : En cours..."
-							linkGit="https://github.com/DrWhiskas/viral-burger"
-							linkPage="https://drwhiskas.github.io/viral-burger/"
 						/>
 					</div>
 				</div>

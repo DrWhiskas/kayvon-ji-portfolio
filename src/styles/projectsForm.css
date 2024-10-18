@@ -38,6 +38,7 @@
     place-items: center;
     visibility: visible;
     opacity: 1;
+    padding: 1rem;
 }
 .projects-form__container__title{
     text-align: center;
