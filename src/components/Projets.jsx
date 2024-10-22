@@ -49,7 +49,7 @@ const Projects = forwardRef((props, ref) => {
 					<ProjectsForm
 						image={manage}
 						title="Manage"
-						description="Website that brings together a variety of music genres and artists. under construction"
+						description="Responsive landing page"
 						linkPage="https://drwhiskas.github.io/manage-landing-page/"
 						linkGit="https://github.com/DrWhiskas/manage-landing-page/tree/main"
 					/>
