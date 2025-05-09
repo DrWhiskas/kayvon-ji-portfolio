@@ -15,6 +15,7 @@ import LateConverter from '../assets/lateConverter.png'
 import djkotic from '../assets/djkotic.png'
 import manage from '../assets/manage-landing-page.png'
 import ratingModal from '../assets/RatingModal.png'
+import lateReflex from '../assets/lateReflex.png';
 import '../styles/projects.css';
 
 const Projects = forwardRef((props, ref) => {
@@ -39,6 +40,12 @@ const Projects = forwardRef((props, ref) => {
 				<h1 className="projects__title title">Projects</h1>
 				<div className="projects__container">
 					<ProjectsForm
+						image={lateReflex}
+						title="Late Reflex"
+						description="Test your reflexes with this game"
+						linkPage="https://drwhiskas.github.io/late-reflex/"
+					/>
+					<ProjectsForm
 						image={ratingModal}
 						title="Rating Modal"
 						description=" interactive rating modal developed using React.js and TypeScript"
@@ -54,16 +61,16 @@ const Projects = forwardRef((props, ref) => {
 						linkGit="https://github.com/DrWhiskas/manage-landing-page/tree/main"
 					/>
 
-					<ProjectsForm
-						image={LateMeteo}
-						title="Late Meteo"
-						description="Weather application"
-						linkPage="https://drwhiskas.github.io/late-meteo/"
-					/>
-
 					<div
 						className={showMoreProject ? 'projects__more' : 'hidden-project'}
 					>
+						<ProjectsForm
+							image={LateMeteo}
+							title="Late Meteo"
+							description="Weather application"
+							linkPage="https://drwhiskas.github.io/late-meteo/"
+						/>
+
 						<ProjectsForm
 							image={djkotic}
 							title="BeatBrowser"
