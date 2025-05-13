@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/pp.png';
+import Logo from '../assets/Logo__KJI.png';
 import '../styles/hero.css';
 import { FaGithub, FaLinkedin, FaEnvelope, FaDiscord } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
