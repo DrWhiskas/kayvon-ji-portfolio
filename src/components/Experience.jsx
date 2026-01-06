@@ -19,6 +19,7 @@ const Experience = forwardRef((props, ref) => {
 		>
 			<section className="experience" ref={ref}>
 				<h2 className="experience__title title">Experience</h2>
+                <div className="experience__container">
 				<ExperienceCard
 					position="Développeur Wordpress"
 					company="Click Avantage"
@@ -74,6 +75,7 @@ const Experience = forwardRef((props, ref) => {
 					]}
 					stack={['Support', 'Hardware', "Résolution d'incidents", 'Service client']}
 				/>
+                </div>
 			</section>
 		</motion.section>
 	);
