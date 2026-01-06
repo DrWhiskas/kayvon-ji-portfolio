@@ -1,0 +1,11 @@
+.experience{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     margin-top: 3%;
+}
+.experience__title {
+    width: 100%;
+    text-align: center;
+    color: black;
+}

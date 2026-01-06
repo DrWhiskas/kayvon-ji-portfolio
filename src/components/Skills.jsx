@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 
 const Skills = forwardRef((props, ref) => {
 		const [Nref, inView] = useInView({
-			triggerOnce: false, // Désactivez-le si vous voulez que l'animation se répète chaque fois que l'élément devient visible
+			triggerOnce: false, 
 		});
 	const SkillsItem = ({ icon, alt }) => {
 		return <li className="skills__list-container__list__item"><img src={icon} alt={alt} /></li>;

@@ -6,7 +6,7 @@ import '../styles/contact.css';
 
 const Contact = forwardRef((props, ref) => {
 	const [Nref, inView] = useInView({
-		triggerOnce: false, // Désactivez-le si vous voulez que l'animation se répète chaque fois que l'élément devient visible
+		triggerOnce: false,
 	});
 
 	return (

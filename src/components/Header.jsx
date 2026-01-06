@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/header.css';
 
-export default function Header({ skillsRef, projectsRef, contactRef }) {
+export default function Header({ skillsRef, projectsRef, contactRef, experienceRef }) {
 	const [showLinks, setShowLinks] = useState(false);
 	
 	function handleShowLinks() {
@@ -19,6 +19,9 @@ export default function Header({ skillsRef, projectsRef, contactRef }) {
 	function handleContactClick() {
 		contactRef.current?.scrollIntoView({ behavior: 'smooth' });
 	}
+	function handleExperienceClick() {
+		experienceRef.current?.scrollIntoView({ behavior: 'smooth' });
+	}		
 
 
 	return (
@@ -27,6 +30,9 @@ export default function Header({ skillsRef, projectsRef, contactRef }) {
 			<ul className="header__links">
 				<li className="header__links__link" onClick={handleSkillsClick}>
 					Skills
+				</li>
+				<li className="header__links__link" onClick={handleExperienceClick}>
+					Experience
 				</li>
 				<li className="header__links__link" onClick={handleProjectsClick}>
 					Projects
