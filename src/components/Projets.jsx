@@ -68,7 +68,6 @@ const Projects = forwardRef((props, ref) => {
 							image={LateMeteo}
 							title="Late Meteo"
 							description="Weather application"
-							linkPage="https://drwhiskas.github.io/late-meteo/"
 						/>
 
 						<ProjectsForm
