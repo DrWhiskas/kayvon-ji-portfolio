@@ -16,6 +16,7 @@ import djkotic from '../assets/djkotic.png'
 import manage from '../assets/manage-landing-page.png'
 import ratingModal from '../assets/RatingModal.png'
 import lateReflex from '../assets/lateReflex.png';
+import sleepTracker from '../assets/sleeptracker.png'
 import '../styles/projects.css';
 
 const Projects = forwardRef((props, ref) => {
@@ -40,6 +41,11 @@ const Projects = forwardRef((props, ref) => {
 				<h1 className="projects__title title">Projects</h1>
 				<div className="projects__container">
 					<ProjectsForm
+						image={sleepTracker}
+						title="Sleep Tracker"
+						description="Track your sleep patterns with this application"
+					/>
+					<ProjectsForm
 						image={lateReflex}
 						title="Late Reflex"
 						description="Test your reflexes with this game"
@@ -53,17 +59,17 @@ const Projects = forwardRef((props, ref) => {
 						linkGit="https://github.com/DrWhiskas/rating-modal/tree/main"
 					/>
 
-					<ProjectsForm
-						image={manage}
-						title="Manage"
-						description="Responsive landing page"
-						linkPage="https://drwhiskas.github.io/manage-landing-page/"
-						linkGit="https://github.com/DrWhiskas/manage-landing-page/tree/main"
-					/>
-
 					<div
 						className={showMoreProject ? 'projects__more' : 'hidden-project'}
 					>
+						<ProjectsForm
+							image={manage}
+							title="Manage"
+							description="Responsive landing page"
+							linkPage="https://drwhiskas.github.io/manage-landing-page/"
+							linkGit="https://github.com/DrWhiskas/manage-landing-page/tree/main"
+						/>
+
 						<ProjectsForm
 							image={LateMeteo}
 							title="Late Meteo"
