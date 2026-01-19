@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kayvon-ji-portfolio/static/css/main.01757e73.css",
-    "main.js": "/kayvon-ji-portfolio/static/js/main.bc1fb937.js",
+    "main.js": "/kayvon-ji-portfolio/static/js/main.46d9128f.js",
     "static/js/787.1a5f8700.chunk.js": "/kayvon-ji-portfolio/static/js/787.1a5f8700.chunk.js",
     "static/media/project__cristaline.png": "/kayvon-ji-portfolio/static/media/project__cristaline.93c1623bd5ddfe848401.png",
     "static/media/projet__mashinneun.png": "/kayvon-ji-portfolio/static/media/projet__mashinneun.aa52edc30052bb8b10e7.png",
@@ -10,6 +10,7 @@
     "static/media/project__kasa.png": "/kayvon-ji-portfolio/static/media/project__kasa.e57b12924e4a58a07e6f.png",
     "static/media/djkotic.png": "/kayvon-ji-portfolio/static/media/djkotic.60821a0adeafa30844ad.png",
     "static/media/late_meteo.png": "/kayvon-ji-portfolio/static/media/late_meteo.20107b5a64c566c0fa37.png",
+    "static/media/sleeptracker.png": "/kayvon-ji-portfolio/static/media/sleeptracker.e2eccb9908bf3f05ff8f.png",
     "static/media/Logo__KJI.png": "/kayvon-ji-portfolio/static/media/Logo__KJI.37383394e70ce393cd5d.png",
     "static/media/project__sportsee.png": "/kayvon-ji-portfolio/static/media/project__sportsee.cc7d271f1fea8e927704.png",
     "static/media/manage-landing-page.png": "/kayvon-ji-portfolio/static/media/manage-landing-page.82d24cbf97090947422e.png",
@@ -20,11 +21,11 @@
     "static/media/lateReflex.png": "/kayvon-ji-portfolio/static/media/lateReflex.9c044e783124b350834f.png",
     "index.html": "/kayvon-ji-portfolio/index.html",
     "main.01757e73.css.map": "/kayvon-ji-portfolio/static/css/main.01757e73.css.map",
-    "main.bc1fb937.js.map": "/kayvon-ji-portfolio/static/js/main.bc1fb937.js.map",
+    "main.46d9128f.js.map": "/kayvon-ji-portfolio/static/js/main.46d9128f.js.map",
     "787.1a5f8700.chunk.js.map": "/kayvon-ji-portfolio/static/js/787.1a5f8700.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01757e73.css",
-    "static/js/main.bc1fb937.js"
+    "static/js/main.46d9128f.js"
   ]
 }
